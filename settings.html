@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/frame.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page flex">
+        <div class="sidebar flex-c">
+            <h2>Elzero</h2>
+            <ul class="flex-c">
+                <li>
+                    <a href="index.html"><i class="fa-regular fa-chart-bar"></i><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a class="active" href="settings.html"><i class="fa-solid fa-gear"></i><span>Settings</span></a>
+                </li>
+                <li>
+                    <a href="profile.html"><i class="fa-regular fa-user"></i><span>Profile</span></a>
+                </li>
+                <li>
+                    <a href="projects.html"><i class="fa-solid fa-diagram-project"></i><span>Projects</span></a>
+                </li>
+                <li>
+                    <a href="courses.html"><i class="fa-solid fa-graduation-cap"></i><span>Courses</span></a>
+                </li>
+                <li>
+                    <a href="friends.html"><i class="fa-regular fa-circle-user"></i><span>Friends</span></a>
+                </li>
+                <li>
+                    <a href="files.html"><i class="fa-regular fa-file"></i><span>Files</span></a>
+                </li>
+                <li>
+                    <a href="plans.html"><i class="fa-regular fa-credit-card"></i><span>Plans</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="header">
+                <form>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Type a Keyword">
+                </form>
+                <div class="bell">
+                    <i class="fa-regular fa-bell"></i>
+                    <div class="image"><img src="imgs/avatar.png" alt=""></div>
+                </div>
+            </div>
+            <div class="dashboard settings">
+                <h1>Settings</h1>  
+                <div class="data">
+                    <div class="site flex-c">
+                        <div class="text">
+                            <h2>Site Control</h2>
+                            <p>Control The Website If There Is Maintenance</p>
+                        </div>
+                        <div class="control flex">
+                            <div class="text">
+                                <h3>Website Control</h3>
+                                <p>Open/Close Website And Type The Reason</p>
+                            </div>
+                            <div class="btn">
+                            </div>
+                        </div>
+                        <textarea placeholder="Close Message Content"></textarea>
+                    </div>
+                    <div class="info flex-c">
+                        <div class="text">
+                            <h2>General Info</h2>
+                            <p>General Information About Your Account</p>
+                        </div>
+                        <form class="flex-c">
+                            <p>First Name</p>
+                            <input type="text" placeholder="First Name">
+                            <p>Second Name</p>
+                            <input type="text" placeholder="Second Name">
+                            <p>Email</p>
+                            <div class="email flex"><input type="email" readonly value="0@nn.sa"> <span>Change</span></div>
+                        </form>
+                    </div>
+                    <div class="security flex-c">
+                        <div class="text">
+                            <h2>Security Info</h2>
+                            <p>Security Information About Your Account</p>
+                        </div>
+                        <div class="password flex">
+                            <div class="text">
+                                <h3>Password</h3>
+                                <p>Last Change On 25/10/2021</p>
+                            </div>
+                            <button>Change</button>
+                        </div>
+                        <div class="factor flex">
+                            <div class="text">
+                                <h3>Two-Factor Authentication</h3>
+                                <p>Enable/Disable The Feature</p>
+                            </div>
+                            <div class="btn"></div>
+                        </div>
+                        <div class="devices flex">
+                            <div class="text">
+                                <h3>Devices</h3>
+                                <p>Check The Login Devices List</p>
+                            </div>
+                            <div class="btn">Devices</div>
+                        </div>
+                    </div>
+                    <div class="social-info flex-c">
+                        <div class="text">
+                            <h2>Social Info</h2>
+                            <p>Social Media Information</p>
+                        </div>
+                        <div class="social-icon flex">
+                            <i class="fa-brands fa-twitter"></i>
+                            <input type="text" placeholder="Twitter Username">
+                        </div>
+                        <div class="social-icon flex">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <input type="text" placeholder="Facebook Username">
+                        </div>
+                        <div class="social-icon flex">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <input type="text" placeholder="Linkedin Username">
+                        </div>
+                        <div class="social-icon flex">
+                            <i class="fa-brands fa-youtube"></i>
+                            <input type="text" placeholder="Youtube Username">
+                        </div>
+                    </div>
+                    <div class="widget flex-c">
+                        <div class="text">
+                            <h2>Widget Control</h2>
+                            <p>Show/Hide Widgets</p>
+                        </div>
+                        <div class="input flex-c">
+                            <div class="checkbox">
+                                <input type="checkbox" checked>
+                                <label for="">Quick Draft</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" checked>
+                                <label for="">Yearly Targets</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" checked>
+                                <label for="">Tickets Statistics</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" checked>
+                                <label for="">Latest News</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox">
+                                <label for="">Latest Tasks</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" checked>
+                                <label for="">Top Search Items</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backup flex-c">
+                        <div class="text">
+                            <h2>Backup Manager</h2>
+                            <p>Control Backup Time And Location</p>
+                        </div>
+                        <div class="input flex-c">
+                            <form action="" class="flex-c">
+                                <div class="radio"><input type="radio" name="time"><label for="">Daily</label></div>
+                                <div class="radio"><input type="radio" name="time"><label for="">Weekly</label></div>
+                                <div class="radio"><input type="radio" name="time"><label for="">Monthly</label></div>
+                            </form>
+                        </div>
+                        <div class="back-server flex">
+                            <div class="megaman">
+                                <i class="fa-solid fa-server"></i>
+                                <p>Megaman</p>
+                            </div>
+                            <div class="zero">
+                                <i class="fa-solid fa-server"></i>
+                                <p>Zero</p>
+                            </div>
+                            <div class="sigma">
+                                <i class="fa-solid fa-server"></i>
+                                <p>Sigma</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
